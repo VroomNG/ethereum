@@ -35,7 +35,7 @@ export default function Home() {
                     <h3 className="h3">100,000,000 HTE</h3>
                 </div>
 
-                <div className="mt-[250px]">
+                <div className="mt-[100px] md:mt-[200px] lg:mt-[200px] xl:mt-[250px]">
                     <h2 className="h2">CONTRACT ADRESS:</h2>
                     <h3 className="h3 text-left">0x6D68723a62447e48B9150982E0 <br></br>c95143a04018D3</h3>
                 </div>
@@ -54,7 +54,7 @@ export default function Home() {
         <div className="flex items-center justify-center bg-white w-full h-[50%] md:w-[50%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%] md:h-full lg:h-full xl:h-full 2xl:h-full">
             <div className="h-[90%] w-[90%] flex flex-col items-center justify-center">
                {/* <div className="w-[90%]"> */}
-                <img src={ethkris} className="object-contain w-[90%] h-[80%] "></img>
+                <img src={ethkris} className="object-contain w-[60%] h-[60%] md:w-[90%] md:h-[80%] lg:w-[90%] lg:h-[80%] xl:w-[90%] xl:w-[90%] "></img>
                {/* </div> */}
             </div>
         </div>

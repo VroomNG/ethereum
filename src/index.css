@@ -8,6 +8,7 @@
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -62,4 +63,24 @@ i {
   opacity: 0.9;
   /* background-color: ; */
   background-blend-mode: luminosity;
+}
+
+@media screen and (max-width:640px){
+  .h1 {
+    font-size: 26px;
+  }
+  .h2 {
+    font-size: 20px;
+  }
+  .h3 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:375px) {
+
+}
+
+@media screen and (min-width:690px) and (max-width:1014px) {
+
 }
