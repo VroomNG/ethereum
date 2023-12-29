@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/script-name.js"></script>
+    <title>muerethe-erc</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              neutral: '#F8FAFC',
+              brand900: '#0F172A',
+              brand800: '#1E293B',
+              brand700: '#171717',
+              brand600: '#0A0214',
+              brand300: '#3b2358',
+              brand400: '#1FBFFD',
+              brand200: '#66d1fcf5',
+              brand100: '#230845',
+              gray900: '#101828',
+              gray600: '#475467',
+              gray300: '#D0D5DD',
+              gray50: '#F9FAFB',
+              brand50: '#F1E7FC',
+              prime100:'#F4EBFF',
+              prime50: '#F9F5FF',
+              eth100: '#242323'
+            },
+            backgroundImage: {
+                'pattern': "url('assets/images/pattern.jpg')",
+                'footer-texture': "url('/img/footer-texture.png')",
+              } ,
+              // screens: {
+              //   '2xm': '360px',
+              //   'xm': '375px',
+              //   'sm': '640px',
+              //   'md': '768px',
+              //   'lg': '1024px',
+              //   'xl': '1024px',
+              //   '2xl': '1536px'
+              // }
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

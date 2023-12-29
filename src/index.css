@@ -1,0 +1,65 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background-color: #000000;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  line-height: 1.2em;
+  text-align: center;
+  font-size: 50px;
+}
+
+.h1 {
+  line-height: 1.2em;
+  text-align: center;
+  font-size: 50px;
+}
+h2 {
+  line-height: 1.2em;
+  text-align: center;
+  font-size: 30px;
+}
+
+.h2 {
+  line-height: 1.2em;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+h3 {
+  line-height: 1.2em;
+  text-align: center;
+  font-size: 30px;
+}
+.h3 {
+  line-height: 1.2em;
+  text-align: center;
+  font-size: 30px;
+}
+
+.outline {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+i {
+  font-size: 30px;
+}
+
+.pattern {
+  background-image: url("assets/coin2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right, bottom;
+  /* width: 60%; */
+  opacity: 0.9;
+  /* background-color: ; */
+  background-blend-mode: luminosity;
+}
