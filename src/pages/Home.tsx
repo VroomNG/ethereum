@@ -5,7 +5,7 @@ import ethkris from "../assets/ethereum.jpg"
 export default function Home() {
   return (
     <>
-    <div className=' h-[110vh] w-full flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row'>
+    <div className=' h-[110vh] md:h-[60vh] lg:[100vh] xl:h-[110vh] 2xl:h-[110vh] w-full flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row'>
         <div className="flex items-center justify-center bg-white w-full h-[50%] md:w-[50%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%] md:h-full lg:h-full xl:h-full 2xl:h-full">
             <div className="h-[90%] w-[90%] flex flex-col items-center justify-center">
                 <h1 className="h1 py-8">MUEREHTE</h1>
@@ -24,7 +24,7 @@ export default function Home() {
         <h1 className="h1 text-white text-center">BRING BACK THE VOLUME OF ETHEREUM <strong>MUEREHTE</strong> </h1>
         </span>
     </div>
-    <div className=' h-[140vh] w-full flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row'>
+    <div className=' h-[140vh]  md:h-[80vh] lg:[120vh] xl:h-[140vh] 2xl:h-[140vh]  w-full flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row'>
         <div className="pattern text-white flex items-center justify-center bg-white w-full h-[50%] md:w-[50%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%] md:h-full lg:h-full xl:h-full 2xl:h-full">
             <div className="h-[95%] w-[90%] m-0 flex items-center justify-center ">
                 <div className=" h-[90%]  w-[80%] flex flex-col justify-center" >
@@ -35,7 +35,7 @@ export default function Home() {
                     <h3 className="h3">100,000,000 HTE</h3>
                 </div>
 
-                <div className="mt-[100px] md:mt-[200px] lg:mt-[200px] xl:mt-[250px]">
+                <div className="mt-[180px] md:mt-[180px] lg:mt-[200px] xl:mt-[250px]">
                     <h2 className="h2">CONTRACT ADRESS:</h2>
                     <h3 className="h3 text-left">0x6D68723a62447e48B9150982E0 <br></br>c95143a04018D3</h3>
                 </div>
